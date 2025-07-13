@@ -1,3 +1,19 @@
 node_modules/
 .env
 mongo-data/
+# Pliki AL / Business Central
+.alpackages/
+*.app
+*.symbols.nupkg
+
+# Visual Studio Code
+.vscode/
+
+# Node.js backend
+node_modules/
+dist/
+.env
+
+# Systemowe
+.DS_Store
+Thumbs.db
