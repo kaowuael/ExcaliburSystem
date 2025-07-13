@@ -1,0 +1,49 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "EsSystemSandbox",
+            "type": "al",
+            "request": "launch",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "environmentType": "Sandbox",
+            "environmentName": "EsSystemSandbox",
+            "tenant": "a223cbc1-7a06-43fa-a88c-7e5ebb611bbb",
+            "authentication": "AAD",
+            "schemaUpdateMode": "Recreate",
+            "breakOnError": "All",
+            "launchBrowser": true
+        },
+        {
+            "name": "AL: Generated Snapshot request",
+            "request": "snapshotInitialize",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "ExSystemSandbox",
+            "sessionId": 493157,
+            "breakOnNext": "WebClient",
+            "executionContext": "DebugAndProfile",
+            "tenant": "a223cbc1-7a06-43fa-a88c-7e5ebb611bbb"
+        },
+        {
+            "name": "AL: Generated Attach request",
+            "request": "attach",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "ExSystemSandbox",
+            "sessionId": 493157,
+            "breakOnNext": "WebClient",
+            "breakOnError": "ExcludeTry",
+            "tenant": "a223cbc1-7a06-43fa-a88c-7e5ebb611bbb"
+        },
+        {
+            "name": "AL: Generated Download Symbols request",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "ExSystemSandbox",
+            "tenant": "a223cbc1-7a06-43fa-a88c-7e5ebb611bbb"
+        }
+    ]
+}
