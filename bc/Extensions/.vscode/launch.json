@@ -2,13 +2,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "EsSystemSandbox",
+            "name": "ExSystemSandbox",
             "type": "al",
             "request": "launch",
             "startupObjectId": 22,
             "startupObjectType": "Page",
             "environmentType": "Sandbox",
-            "environmentName": "EsSystemSandbox",
+            "environmentName": "ExSystemSandbox",
             "tenant": "a223cbc1-7a06-43fa-a88c-7e5ebb611bbb",
             "authentication": "AAD",
             "schemaUpdateMode": "Recreate",
